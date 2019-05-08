@@ -7,10 +7,11 @@ public class CircleArea {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-		System.out.print("¿øÀÇ ¹İÁö¸§Àº? ");
+		System.out.print("ë°˜ì§€ë¦„ì€? ");
 		double n=scn.nextDouble();
 		
-		System.out.println("¿øÀÇ ³ĞÀÌ : "+ n*n*3.14);
+		System.out.println("ì›ì˜ ë„“ì´ : "+ n*n*3.14);
+		System.out.println("êµ¬ì˜ ë„“ì´ : "+ n*n*4*3.14);
 		
 		scn.close();
 	}
